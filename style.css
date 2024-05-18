@@ -20,15 +20,17 @@ button {
     margin: 5px;
     font-size: 16px;
 }
-
+#clear{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
 #counter {
     display: block;
     padding: 10px;
     margin: 10px 0;
     font-size: 24px;
-    /* border: 1px solid #000; */
     text-decoration: underline;
-    border: 1px solid blue;
 }
 
 
@@ -36,11 +38,9 @@ button {
     color: red;
     visibility: hidden;
     margin: 10px 0;
-    border: 1px solid red;
 }
 
 .buttons {
-    border: 1px solid wheat;
     display: flex;
     /* justify-content: center;
     align-items: center; */
